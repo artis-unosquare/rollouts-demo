@@ -1,0 +1,5 @@
+k8s_config:
+- manifest_path: /manifests
+  cluster_info:
+    cluster_id: f09044e2-28c0-5745-80ba-9568c9031f78
+    cluster_name: artis
