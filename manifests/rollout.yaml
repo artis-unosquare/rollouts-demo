@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
   annotations:
-    getambassador.io/rolloutId: 6533ad29-d30b-48d2-b5ee-52c3c5ac2d32
+    getambassador.io/rolloutId: a802ce9a-6f2f-4d3a-9271-539cd0b0d391
   creationTimestamp: null
   name: rollout-demo
 spec:
@@ -59,7 +59,7 @@ spec:
       - args:
         - -text=VERSION 1
         - -listen=:8080
-        image: hashicorp/http-echo:0.1.0
+        image: hashicorp/http-echo:0.2.0
         imagePullPolicy: Always
         name: echo-v1
         ports:
